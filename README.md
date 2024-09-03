@@ -82,3 +82,17 @@
 ## Dynamic Components
     - Dynamic Content: JSX allows the creation of dynamic and interactive UI components
     - JavaScript Expressions: Using {}, we can embed any JS expression directly with the JSX. This includes variables, function calls, and more.
+
+## Reusable Components
+    - Modularity: Components are modular, allowing for easy reuse across different parts of an application
+    - Consistency: Reusing components ensures UI consistency and reduces the chance of discrepancies.
+    - Efficiency: Reduces development time and effort by avoiding duplication of code
+    - Maintainability: Changes made to a reused component reflect everywhere it's used, simplifying updates and bug fixes.
+
+## Including Bootstrap
+    - Responsive: Mobile-first design for all device sizes
+    - Components: Pre-styled elements like buttons and navbars
+    - Customizable: Modify default styles as needed
+    - Cross-Browser: Consistent look across browsers
+    - Open-source: Free with community support
+    
