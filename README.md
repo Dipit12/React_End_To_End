@@ -40,4 +40,45 @@
         - styles: CSS or stylesheets
     - package.json contains information about this project like name, version, dependencies on other react packages
     - vite.config.js contains vite config
-    
+
+# File extensions
+    - JS
+        - Stands for JavaScript
+        - Contains regulas JS code
+        - User for general logic and components
+    - JSX
+        - Stands for Javascript XML
+        - Combines Javascript with HTML like tags
+        - Makes it easier to design UI components
+
+# Class Vs Function Components
+    - Class Components
+        - Stateful: Can manage state
+        - Lifecycle: Access to lifecycle method
+        - Verbose: More boilerplate code
+        - Not preferred anymore
+    - Functional Components
+        - Initially stateless
+        - Can use Hooks for state and effects
+        - Simpler and more concise
+        - More popular
+# What is JSX?
+    - Definition: JSX determines how the UI will look whenever the component is used
+    - Not HTML: Though it resembles HTML, you're actually writing JSX, which stands for javascript XML
+    - Conversion: JSX gets converted to regular JS
+    - Babeljs.io/repl is a tool that allows you to see how JSX is transformed into JS
+
+## Exporting Components
+    - Enables the use of a component in other parts
+    - Default export: Allows exporting a single component as the default from a module
+    - Named export: Allows exporting multiple items from a module
+    - Importing: To use an exported component, you need to import it in the destination using import syntax
+
+## Other Important points
+    - Naming: Must be capitalized - Lowercase for default HTML
+    - HTML: Unlike vanilla JS where you cant directly write HTML, In React, you can embed HTML-like syntax using JSX
+    - CSS: In react, CSS can be directly imported into component files, allowing for modular and component-specific styling
+
+## Dynamic Components
+    - Dynamic Content: JSX allows the creation of dynamic and interactive UI components
+    - JavaScript Expressions: Using {}, we can embed any JS expression directly with the JSX. This includes variables, function calls, and more.
