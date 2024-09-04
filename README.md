@@ -95,4 +95,31 @@
     - Customizable: Modify default styles as needed
     - Cross-Browser: Consistent look across browsers
     - Open-source: Free with community support
-    
+
+## Fragments
+    - What??
+        - Allows grouping of multiple elements without DOM nodes
+    - Why??
+        - Return multiple elements without a wrapping parent
+        - Cleaner DOM and consistent styling
+    - How? Two Syntaxes:
+        - <React Fragment> ... </ReactFragment>
+        - Short <> .. </>
+
+## Map Method
+    - Purpose: Render lists from array data
+    - JSX elements: Transform array items into JSX
+    - Inline Rendering: Directly inside JSX {items.map(item => <li ke = {item.id}>{item.name} </li>)}
+
+## Conditional-Rendering
+    - Displaying content based on certain conditions
+    - Allows for dynamic user interfaces
+
+    - Methods
+        - If-else statements: Choose between 2 blocks of content
+        - Ternary operators: Quick way to choose btw 2 options
+        - Logical operators: Useful for rendering content when a condition is true
+    - Benefits
+        - Enhances user experience
+        - Reduces unnecessary rendering
+        - Makes apps more interactive and responsive
