@@ -1,4 +1,6 @@
 import React from 'react';
+import FoodItems from './components/FoodItems';
+import ErrorMessage from './components/ErrorMessage';
 function App(){
    let food_items = ["Milk","Veggies","Eggs","Fruits","Meat"];
   // let food_items = []
@@ -6,11 +8,8 @@ function App(){
    
    <React.Fragment> 
       <h1>Healthy Foods</h1>
-      {food_items.length == 0 ? <h3>I am still hungry</h3>:null}
-      <ul class="list-group">
-        {food_items.map(item => <li class="list-group-item">{item}</li>)}
-        
-      </ul>
+      <ErrorMessage ></ErrorMessage>
+      <FoodItems />
       </React.Fragment>
   );
 }

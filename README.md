@@ -1,4 +1,4 @@
-## React Follow along Tutorial from KG coding by Prashant Sir 
+## React Follow along Tutorial from KG coding by Prashant Sir and from Bro code
 
 ## What is React??
     - JS library to build Dynamic and interactive user interfaces
@@ -123,3 +123,34 @@
         - Enhances user experience
         - Reduces unnecessary rendering
         - Makes apps more interactive and responsive
+## Passing Data via props
+    - Props in react
+        - Short for properties
+        - Mechanism for passing data
+        - Read-only by default
+    - Usage
+        - Pass data from parent to child component
+        - Makes components reusable
+        - Defined as attributes in JSX
+    - Key-Points
+        - Data flows one-way
+        - Props are immutable
+        - Used for communication between components
+
+## Props
+    - read only properties that are shared between components
+    - A parent component can send data to a child component
+
+## Click Events
+    - An interaction when a user clicks a specific element
+    - We can respond to clicks by passing a callback to the onClick event handler
+
+## React Hooks
+    - Special Function that allows functional components to use react features without writing class components(useState, useEffect, useContext, useReducer, useCallback and many more ..)
+    
+    - useState Hook - A react hook that allows the creation of a stateful variable and a SETTER function to update it's value in the virtual DOM.
+    [name, setName]
+## onChange Event Handler
+    - Used primarily with form-elements
+    - eg: <input>, <radio>, <select> etc etc
+    - Triggers a function every time the value of the input changes
