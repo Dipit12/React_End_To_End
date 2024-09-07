@@ -154,3 +154,9 @@
     - Used primarily with form-elements
     - eg: <input>, <radio>, <select> etc etc
     - Triggers a function every time the value of the input changes
+## Updater function
+    - A function passed as an argument to setState() usually eg: setYear(arrow function)
+    - Allow for safe updates based on the previous state
+    - Used with multiple state updates and asyncronous functions
+    - Good practise to use updater functions
+    
